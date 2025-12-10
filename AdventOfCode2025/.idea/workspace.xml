@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Set up Java project">
+    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Refactor Day 1 part 1 to simplify">
       <change afterPath="$PROJECT_DIR$/src/main/java/Safe.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/input_1.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/SafeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Safe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Safe.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +76,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SafeTest.zeroTest" />
         <item itemvalue="JUnit.SafeTest" />
+        <item itemvalue="JUnit.SafeTest.zeroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -111,11 +113,21 @@
       <option name="project" value="LOCAL" />
       <updated>1765374010999</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Day 1 part 1 solved">
+      <option name="closed" value="true" />
+      <created>1765377616405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765377616405</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set up Java project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up Java project" />
+    <MESSAGE value="Day 1 part 1 solved" />
+    <MESSAGE value="Refactor Day 1 part 1 to simplify" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor Day 1 part 1 to simplify" />
   </component>
 </project>
