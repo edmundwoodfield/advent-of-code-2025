@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 2 Part 1 solved">
+    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 2 Part 2 solved">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BatteryBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/input_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BatterBankTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GiftShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GiftShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GiftShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GiftShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GiftShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GiftShop.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.BatterBankTest.highestJoltTest.executor": "Debug",
     "JUnit.GiftShopTest.executor": "Debug",
     "JUnit.GiftShopTest.validateIdTest.executor": "Run",
     "JUnit.SafeTest.executor": "Run",
@@ -47,6 +51,16 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AdventOfCode2025" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BatterBankTest.highestJoltTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode2025" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BatterBankTest" />
+      <option name="METHOD_NAME" value="highestJoltTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,23 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SafeTest.zeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode2025" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SafeTest" />
-      <option name="METHOD_NAME" value="zeroTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BatterBankTest.highestJoltTest" />
         <item itemvalue="JUnit.GiftShopTest" />
         <item itemvalue="JUnit.GiftShopTest.validateIdTest" />
         <item itemvalue="JUnit.SafeTest" />
-        <item itemvalue="JUnit.SafeTest.zeroTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +160,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765380407603</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day 2 Part 2 solved">
+      <option name="closed" value="true" />
+      <created>1765982065451</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765982065451</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Day 2 Part 2 solved">
+      <option name="closed" value="true" />
+      <created>1765982219575</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765982219575</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,14 +185,15 @@
     <MESSAGE value="Refactor Day 1 part 1 to simplify" />
     <MESSAGE value="Day 1 Part 2 solved" />
     <MESSAGE value="Day 2 Part 1 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 2 Part 1 solved" />
+    <MESSAGE value="Day 2 Part 2 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2 Part 2 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
-          <line>3</line>
+          <line>4</line>
           <properties class="Main" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

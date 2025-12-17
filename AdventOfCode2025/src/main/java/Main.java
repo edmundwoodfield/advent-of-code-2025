@@ -1,17 +1,18 @@
 import java.io.*;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-//        ArrayList<String> inputStrings = new ArrayList<>();
-//        try (var reader = new BufferedReader(
-//                new InputStreamReader(Main.class.getResourceAsStream("/input_1.txt")))){
-//            String line;
-//            while ((line = reader.readLine()) != null){
-//                inputStrings.add(line);
-//            }
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
+        ArrayList<String> inputStrings = new ArrayList<>();
+        try (var reader = new BufferedReader(
+                new InputStreamReader(Main.class.getResourceAsStream("/input_3.txt")))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                inputStrings.add(line);
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 //
 //        var safe = new Safe();
 //
@@ -23,22 +24,31 @@ public class Main {
 //
 //        System.out.println("Zero Counter: " + safe.zeroCounter);
 
-        String ranges = "";
-        try (var reader = new BufferedReader(
-                new InputStreamReader(Main.class.getResourceAsStream("/input_2.txt")))){
-            String line;
-            while ((line = reader.readLine()) != null){
-               ranges = line;
-            }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+//        String ranges = "";
+//        try (var reader = new BufferedReader(
+//                new InputStreamReader(Main.class.getResourceAsStream("/input_2.txt")))){
+//            String line;
+//            while ((line = reader.readLine()) != null){
+//               ranges = line;
+//            }
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//        var giftShop = new GiftShop();
+//        var rangeStrings = giftShop.rangeStrings(ranges);
+//        long count = 0;
+//        for (var range : rangeStrings){
+//            count += giftShop.invalidIds(range);
+//        }
+//        System.out.println("Invalid id total: " + count);
+//    }
+        var batteryBank = new BatteryBank();
+        var total = 0L;
+        for (var bank : inputStrings){
+            var highest = batteryBank.highestJolt(bank);
+            System.out.println(highest);
+            total += highest;
         }
-        var giftShop = new GiftShop();
-        var rangeStrings = giftShop.rangeStrings(ranges);
-        long count = 0;
-        for (var range : rangeStrings){
-            count += giftShop.invalidIds(range);
-        }
-        System.out.println("Invalid id total: " + count);
+        System.out.println("total: " + total);
     }
 }
