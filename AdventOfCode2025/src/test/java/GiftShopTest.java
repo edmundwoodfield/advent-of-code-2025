@@ -11,6 +11,6 @@ class GiftShopTest {
         for (var range : rangeStrings){
             count += giftShop.invalidIds(range);
         }
-        Assertions.assertEquals(1227775554, count);
+        Assertions.assertEquals(4174379265L, count);
     }
 }

@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 2 Part 1 solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GiftShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GiftShopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SafeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SafeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GiftShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GiftShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GiftShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GiftShopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="36eiK0F7HHokDzwdnW9xuQWbFma" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -37,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.GiftShopTest.executor": "Debug",
     "JUnit.GiftShopTest.validateIdTest.executor": "Run",
     "JUnit.SafeTest.executor": "Run",
     "JUnit.SafeTest.zeroTest.executor": "Run",
@@ -49,6 +47,16 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AdventOfCode2025" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiftShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode2025" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GiftShopTest" />
+      <option name="METHOD_NAME" value="validateIdTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,6 +93,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.GiftShopTest" />
         <item itemvalue="JUnit.GiftShopTest.validateIdTest" />
         <item itemvalue="JUnit.SafeTest" />
         <item itemvalue="JUnit.SafeTest.zeroTest" />
