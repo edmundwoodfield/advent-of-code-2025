@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-class BatterBankTest {
+class BatteryBankTest {
     @Test
     void highestJoltTest(){
         var banks = Arrays.asList("987654321111111","811111111111119","234234234234278","818181911112111");
@@ -14,6 +14,6 @@ class BatterBankTest {
             System.out.println(highest);
             total += highest;
         }
-        Assertions.assertEquals(357, total);
+        Assertions.assertEquals(3121910778619L, total);
     }
 }

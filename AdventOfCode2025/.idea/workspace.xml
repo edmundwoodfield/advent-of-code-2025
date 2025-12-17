@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 2 Part 2 solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BatteryBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BatterBankTest.java" afterDir="false" />
+    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 3 Part 1 solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GiftShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GiftShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BatteryBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BatteryBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BatterBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BatteryBankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BatteryBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BatterBankTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +41,15 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.BatterBankTest.highestJoltTest.executor": "Debug",
+    "JUnit.BatteryBankTest.highestJoltTest.executor": "Debug",
     "JUnit.GiftShopTest.executor": "Debug",
     "JUnit.GiftShopTest.validateIdTest.executor": "Run",
     "JUnit.SafeTest.executor": "Run",
     "JUnit.SafeTest.zeroTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Main">
@@ -55,10 +60,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BatterBankTest.highestJoltTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BatteryBankTest.highestJoltTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode2025" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BatterBankTest" />
+      <option name="MAIN_CLASS_NAME" value="BatteryBankTest" />
       <option name="METHOD_NAME" value="highestJoltTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -97,7 +102,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.BatterBankTest.highestJoltTest" />
+        <item itemvalue="JUnit.BatteryBankTest.highestJoltTest" />
         <item itemvalue="JUnit.GiftShopTest" />
         <item itemvalue="JUnit.GiftShopTest.validateIdTest" />
         <item itemvalue="JUnit.SafeTest" />
@@ -176,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765982219575</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Day 3 Part 1 solved">
+      <option name="closed" value="true" />
+      <created>1765984886087</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765984886087</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Day 3 Part 1 solved">
+      <option name="closed" value="true" />
+      <created>1765984907222</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765984907222</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -186,7 +207,8 @@
     <MESSAGE value="Day 1 Part 2 solved" />
     <MESSAGE value="Day 2 Part 1 solved" />
     <MESSAGE value="Day 2 Part 2 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 2 Part 2 solved" />
+    <MESSAGE value="Day 3 Part 1 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3 Part 1 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -199,6 +221,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BatteryBank.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
