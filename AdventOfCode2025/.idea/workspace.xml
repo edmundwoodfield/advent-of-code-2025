@@ -7,16 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 5 Part 2 solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CephalopodCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CephalopodCalculatorTest.java" afterDir="false" />
+    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 6 Part 1 solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InventoryManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InventoryManager$Range.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InventoryManager$Range.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/InventoryManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InventoryManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CephalopodCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CephalopodCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InventoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InventoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CephalopodCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CephalopodCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CephalopodCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CephalopodCalculator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CephalopodCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CephalopodCalculatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
     "Application.Main.executor": "Run",
     "JUnit.BatterBankTest.highestJoltTest.executor": "Debug",
     "JUnit.BatteryBankTest.highestJoltTest.executor": "Debug",
-    "JUnit.CephalopodCalculatorTest.calculateTest.executor": "Run",
+    "JUnit.CephalopodCalculatorTest.calculateTest.executor": "Debug",
     "JUnit.ForkliftTest.accessPaperTest.executor": "Debug",
     "JUnit.ForkliftTest.removePaperTest.executor": "Run",
     "JUnit.GiftShopTest.executor": "Debug",
@@ -257,7 +255,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766158454912</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Day 6 Part 1 solved">
+      <option name="closed" value="true" />
+      <created>1766162640206</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1766162640206</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Day 6 Part 1 solved">
+      <option name="closed" value="true" />
+      <created>1766162652236</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1766162652236</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -273,7 +287,8 @@
     <MESSAGE value="Day 4 Part 2 solved" />
     <MESSAGE value="Day 5 Part 1 solved" />
     <MESSAGE value="Day 5 Part 2 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 5 Part 2 solved" />
+    <MESSAGE value="Day 6 Part 1 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6 Part 1 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -282,6 +297,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/InventoryManager.java</url>
           <line>36</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CephalopodCalculator.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CephalopodCalculator.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -75,8 +75,8 @@ public class InventoryManager {
             this.lower = lower;
             this.upper = upper;
         }
-        long lower;
-        long upper;
+        private final long lower;
+        private final long upper;
     }
 
 }
