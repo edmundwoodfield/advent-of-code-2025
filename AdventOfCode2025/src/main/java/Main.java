@@ -92,7 +92,8 @@ public class Main {
 //        }
 //        System.out.println("Total: " + count);
         var inventoryManager = new InventoryManager(inputStrings);
-        System.out.println(inventoryManager.countUnspoiledIngredients(inputStrings2));
+        System.out.println("number of unspoiled ingredients in stock: " + inventoryManager.countUnspoiledIngredients(inputStrings2));
+        System.out.println("possible unspoiled ingredients: " + inventoryManager.countTotalUnspoiledIngredients());
     }
 
 }

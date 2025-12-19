@@ -7,13 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 4 Part 2 solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/InventoryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/InventoryManagerTest.java" afterDir="false" />
+    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 5 Part 2 solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/InventoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InventoryManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InventoryManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InventoryManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InventoryManager$Range.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InventoryManager$Range.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InventoryManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InventoryManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InventoryManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InventoryManagerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +44,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "JUnit.BatterBankTest.highestJoltTest.executor": "Debug",
     "JUnit.BatteryBankTest.highestJoltTest.executor": "Debug",
     "JUnit.ForkliftTest.accessPaperTest.executor": "Debug",
     "JUnit.ForkliftTest.removePaperTest.executor": "Run",
     "JUnit.GiftShopTest.executor": "Debug",
     "JUnit.GiftShopTest.validateIdTest.executor": "Run",
+    "JUnit.InventoryManagerTest.countTotalUnspoiledIngredientsTest.executor": "Debug",
     "JUnit.InventoryManagerTest.countUnspoiledIngredientsTest.executor": "Run",
     "JUnit.SafeTest.executor": "Run",
     "JUnit.SafeTest.zeroTest.executor": "Run",
@@ -62,16 +65,6 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AdventOfCode2025" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BatteryBankTest.highestJoltTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode2025" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BatteryBankTest" />
-      <option name="METHOD_NAME" value="highestJoltTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,6 +89,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InventoryManagerTest.countTotalUnspoiledIngredientsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode2025" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InventoryManagerTest" />
+      <option name="METHOD_NAME" value="countTotalUnspoiledIngredientsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InventoryManagerTest.countUnspoiledIngredientsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode2025" />
       <option name="PACKAGE_NAME" value="" />
@@ -109,10 +112,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.InventoryManagerTest.countTotalUnspoiledIngredientsTest" />
         <item itemvalue="JUnit.InventoryManagerTest.countUnspoiledIngredientsTest" />
         <item itemvalue="JUnit.ForkliftTest.removePaperTest" />
         <item itemvalue="JUnit.ForkliftTest.accessPaperTest" />
-        <item itemvalue="JUnit.BatteryBankTest.highestJoltTest" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766150963662</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Day 5 Part 1 solved">
+      <option name="closed" value="true" />
+      <created>1766153171583</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1766153171584</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,15 +253,17 @@
     <MESSAGE value="Day 3 Part 2 solved" />
     <MESSAGE value="Day 4 Part 1 solved" />
     <MESSAGE value="Day 4 Part 2 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 4 Part 2 solved" />
+    <MESSAGE value="Day 5 Part 1 solved" />
+    <MESSAGE value="Day 5 Part 2 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5 Part 2 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/InventoryManager.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="23" />
+          <line>36</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
