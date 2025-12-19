@@ -1,11 +1,12 @@
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String> inputStrings = new ArrayList<>();
+        List<String> inputStrings = new ArrayList<>();
         try (var reader = new BufferedReader(
-                new InputStreamReader(Main.class.getResourceAsStream("/input_3.txt")))) {
+                new InputStreamReader(Main.class.getResourceAsStream("/input_4.txt")))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 inputStrings.add(line);
@@ -42,13 +43,27 @@ public class Main {
 //        }
 //        System.out.println("Invalid id total: " + count);
 //    }
-        var batteryBank = new BatteryBank();
+//        var batteryBank = new BatteryBank();
+//        var total = 0L;
+//        for (var bank : inputStrings){
+//            var highest = batteryBank.highestJolt(bank);
+//            System.out.println(highest);
+//            total += highest;
+//        }
+//        System.out.println("total: " + total);
+
+        var forklift = new Forklift(inputStrings);
         var total = 0L;
-        for (var bank : inputStrings){
-            var highest = batteryBank.highestJolt(bank);
-            System.out.println(highest);
-            total += highest;
+        for (var i = 0; i < inputStrings.size(); i++){
+            for (var j = 0; j < inputStrings.get(0).length(); j++){
+                if (inputStrings.get(i).charAt(j) == '@'){
+                    if(forklift.isAccessible(i, j)){
+                        total ++;
+                    }
+                }
+            }
         }
         System.out.println("total: " + total);
     }
+
 }
