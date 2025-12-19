@@ -5,11 +5,17 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<String> inputStrings = new ArrayList<>();
+        List<String> inputStrings2 = new ArrayList<>();
         try (var reader = new BufferedReader(
-                new InputStreamReader(Main.class.getResourceAsStream("/input_4.txt")))) {
+                new InputStreamReader(Main.class.getResourceAsStream("/input_5.txt")))) {
             String line;
+            var target = inputStrings;
             while ((line = reader.readLine()) != null) {
-                inputStrings.add(line);
+                if (line.isEmpty()){
+                    target = inputStrings2;
+                    continue;
+                }
+                target.add(line);
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -52,39 +58,41 @@ public class Main {
 //        }
 //        System.out.println("total: " + total);
 
-        var forklift = new Forklift(inputStrings);
-        var total = 0L;
-        for (var i = 0; i < inputStrings.size(); i++){
-            for (var j = 0; j < inputStrings.get(0).length(); j++){
-                if (inputStrings.get(i).charAt(j) == '@'){
-                    if(forklift.isAccessible(i, j)){
-                        total ++;
-                    }
-                }
-            }
-        }
-        System.out.println("total: " + total);
-
-        var count = 0;
-        var finished = false;
-        while (!finished){
-            finished = true;
-            for (var i = 0; i < inputStrings.size(); i++){
-                var shelf = inputStrings.get(i);
-                for (var j = 0; j < inputStrings.get(0).length(); j++){
-                    if (shelf.charAt(j) == '@'){
-                        if(forklift.isAccessible(i, j)){
-                            count ++;
-                            finished = false;
-                            inputStrings.set(i,shelf.substring(0,j) + "." + shelf.substring(j + 1));
-                            shelf = inputStrings.get(i);
-                        }
-                    }
-                }
-            }
-            forklift.loadShelves(inputStrings);
-        }
-        System.out.println("Total: " + count);
+//        var forklift = new Forklift(inputStrings);
+//        var total = 0L;
+//        for (var i = 0; i < inputStrings.size(); i++){
+//            for (var j = 0; j < inputStrings.get(0).length(); j++){
+//                if (inputStrings.get(i).charAt(j) == '@'){
+//                    if(forklift.isAccessible(i, j)){
+//                        total ++;
+//                    }
+//                }
+//            }
+//        }
+//        System.out.println("total: " + total);
+//
+//        var count = 0;
+//        var finished = false;
+//        while (!finished){
+//            finished = true;
+//            for (var i = 0; i < inputStrings.size(); i++){
+//                var shelf = inputStrings.get(i);
+//                for (var j = 0; j < inputStrings.get(0).length(); j++){
+//                    if (shelf.charAt(j) == '@'){
+//                        if(forklift.isAccessible(i, j)){
+//                            count ++;
+//                            finished = false;
+//                            inputStrings.set(i,shelf.substring(0,j) + "." + shelf.substring(j + 1));
+//                            shelf = inputStrings.get(i);
+//                        }
+//                    }
+//                }
+//            }
+//            forklift.loadShelves(inputStrings);
+//        }
+//        System.out.println("Total: " + count);
+        var inventoryManager = new InventoryManager(inputStrings);
+        System.out.println(inventoryManager.countUnspoiledIngredients(inputStrings2));
     }
 
 }
