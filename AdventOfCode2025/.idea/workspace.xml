@@ -8,14 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 5 Part 2 solved">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CephalopodCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/input_6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CephalopodCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InventoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InventoryManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InventoryManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InventoryManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/InventoryManager$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/InventoryManager$Range.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InventoryManager$Range.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/InventoryManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/InventoryManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/InventoryManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InventoryManagerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
     "Application.Main.executor": "Run",
     "JUnit.BatterBankTest.highestJoltTest.executor": "Debug",
     "JUnit.BatteryBankTest.highestJoltTest.executor": "Debug",
+    "JUnit.CephalopodCalculatorTest.calculateTest.executor": "Run",
     "JUnit.ForkliftTest.accessPaperTest.executor": "Debug",
     "JUnit.ForkliftTest.removePaperTest.executor": "Run",
     "JUnit.GiftShopTest.executor": "Debug",
@@ -69,11 +71,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForkliftTest.accessPaperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CephalopodCalculatorTest.calculateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode2025" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ForkliftTest" />
-      <option name="METHOD_NAME" value="accessPaperTest" />
+      <option name="MAIN_CLASS_NAME" value="CephalopodCalculatorTest" />
+      <option name="METHOD_NAME" value="calculateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,10 +114,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CephalopodCalculatorTest.calculateTest" />
         <item itemvalue="JUnit.InventoryManagerTest.countTotalUnspoiledIngredientsTest" />
         <item itemvalue="JUnit.InventoryManagerTest.countUnspoiledIngredientsTest" />
         <item itemvalue="JUnit.ForkliftTest.removePaperTest" />
-        <item itemvalue="JUnit.ForkliftTest.accessPaperTest" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766153171584</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Day 5 Part 2 solved">
+      <option name="closed" value="true" />
+      <created>1766158435140</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1766158435140</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Day 5 Part 2 solved">
+      <option name="closed" value="true" />
+      <created>1766158454912</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1766158454912</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

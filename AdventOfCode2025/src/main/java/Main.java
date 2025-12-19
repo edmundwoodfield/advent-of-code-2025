@@ -7,7 +7,7 @@ public class Main {
         List<String> inputStrings = new ArrayList<>();
         List<String> inputStrings2 = new ArrayList<>();
         try (var reader = new BufferedReader(
-                new InputStreamReader(Main.class.getResourceAsStream("/input_5.txt")))) {
+                new InputStreamReader(Main.class.getResourceAsStream("/input_6.txt")))) {
             String line;
             var target = inputStrings;
             while ((line = reader.readLine()) != null) {
@@ -91,9 +91,11 @@ public class Main {
 //            forklift.loadShelves(inputStrings);
 //        }
 //        System.out.println("Total: " + count);
-        var inventoryManager = new InventoryManager(inputStrings);
-        System.out.println("number of unspoiled ingredients in stock: " + inventoryManager.countUnspoiledIngredients(inputStrings2));
-        System.out.println("possible unspoiled ingredients: " + inventoryManager.countTotalUnspoiledIngredients());
+//        var inventoryManager = new InventoryManager(inputStrings);
+//        System.out.println("number of unspoiled ingredients in stock: " + inventoryManager.countUnspoiledIngredients(inputStrings2));
+//        System.out.println("possible unspoiled ingredients: " + inventoryManager.countTotalUnspoiledIngredients());
+        var calculator = new CephalopodCalculator();
+        System.out.println("Total: " + calculator.calculate(inputStrings));
     }
 
 }
