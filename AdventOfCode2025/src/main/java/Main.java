@@ -64,6 +64,27 @@ public class Main {
             }
         }
         System.out.println("total: " + total);
+
+        var count = 0;
+        var finished = false;
+        while (!finished){
+            finished = true;
+            for (var i = 0; i < inputStrings.size(); i++){
+                var shelf = inputStrings.get(i);
+                for (var j = 0; j < inputStrings.get(0).length(); j++){
+                    if (shelf.charAt(j) == '@'){
+                        if(forklift.isAccessible(i, j)){
+                            count ++;
+                            finished = false;
+                            inputStrings.set(i,shelf.substring(0,j) + "." + shelf.substring(j + 1));
+                            shelf = inputStrings.get(i);
+                        }
+                    }
+                }
+            }
+            forklift.loadShelves(inputStrings);
+        }
+        System.out.println("Total: " + count);
     }
 
 }

@@ -8,16 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 4 Part 1 solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Forklift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/input_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ForkliftTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Forklift.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/input_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/ForkliftTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Forklift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Forklift.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BatteryBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BatteryBank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ForkliftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ForkliftTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Forklift.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Forklift.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ForkliftTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ForkliftTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,7 @@
     "JUnit.BatterBankTest.highestJoltTest.executor": "Debug",
     "JUnit.BatteryBankTest.highestJoltTest.executor": "Debug",
     "JUnit.ForkliftTest.accessPaperTest.executor": "Debug",
+    "JUnit.ForkliftTest.removePaperTest.executor": "Run",
     "JUnit.GiftShopTest.executor": "Debug",
     "JUnit.GiftShopTest.validateIdTest.executor": "Run",
     "JUnit.SafeTest.executor": "Run",
@@ -85,6 +83,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ForkliftTest.removePaperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode2025" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ForkliftTest" />
+      <option name="METHOD_NAME" value="removePaperTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GiftShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode2025" />
       <option name="PACKAGE_NAME" value="" />
@@ -95,23 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GiftShopTest.validateIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode2025" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GiftShopTest" />
-      <option name="METHOD_NAME" value="validateIdTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ForkliftTest.removePaperTest" />
         <item itemvalue="JUnit.ForkliftTest.accessPaperTest" />
         <item itemvalue="JUnit.BatteryBankTest.highestJoltTest" />
         <item itemvalue="JUnit.GiftShopTest" />
-        <item itemvalue="JUnit.GiftShopTest.validateIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765986333380</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day 4 Part 1 solved">
+      <option name="closed" value="true" />
+      <created>1766142196606</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1766142196607</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,5 +231,16 @@
     <MESSAGE value="Day 3 Part 2 solved" />
     <MESSAGE value="Day 4 Part 1 solved" />
     <option name="LAST_COMMIT_MESSAGE" value="Day 4 Part 1 solved" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
