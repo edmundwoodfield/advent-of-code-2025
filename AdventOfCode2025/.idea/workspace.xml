@@ -7,14 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 6 Part 1 solved">
+    <list default="true" id="7b3c6af7-7e95-49c1-9f13-c133d556722c" name="Changes" comment="Day 6 Part 2 solved">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tachyon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/input_7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TachyonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CephalopodCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CephalopodCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InventoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/InventoryManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CephalopodCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CephalopodCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CephalopodCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CephalopodCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CephalopodCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CephalopodCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
     "JUnit.InventoryManagerTest.countUnspoiledIngredientsTest.executor": "Run",
     "JUnit.SafeTest.executor": "Run",
     "JUnit.SafeTest.zeroTest.executor": "Run",
+    "JUnit.TachyonTest.countSplitsTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -74,16 +73,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CephalopodCalculatorTest" />
       <option name="METHOD_NAME" value="calculateTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForkliftTest.removePaperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AdventOfCode2025" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ForkliftTest" />
-      <option name="METHOD_NAME" value="removePaperTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,13 +98,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TachyonTest.countSplitsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode2025" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TachyonTest" />
+      <option name="METHOD_NAME" value="countSplitsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TachyonTest.countSplitsTest" />
         <item itemvalue="JUnit.CephalopodCalculatorTest.calculateTest" />
         <item itemvalue="JUnit.InventoryManagerTest.countTotalUnspoiledIngredientsTest" />
         <item itemvalue="JUnit.InventoryManagerTest.countUnspoiledIngredientsTest" />
-        <item itemvalue="JUnit.ForkliftTest.removePaperTest" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766162652236</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Day 6 Part 2 solved">
+      <option name="closed" value="true" />
+      <created>1766183676326</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1766183676326</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,7 +295,8 @@
     <MESSAGE value="Day 5 Part 1 solved" />
     <MESSAGE value="Day 5 Part 2 solved" />
     <MESSAGE value="Day 6 Part 1 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 6 Part 1 solved" />
+    <MESSAGE value="Day 6 Part 2 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6 Part 2 solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

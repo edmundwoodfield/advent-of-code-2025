@@ -1,13 +1,14 @@
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
         List<String> inputStrings = new ArrayList<>();
         List<String> inputStrings2 = new ArrayList<>();
         try (var reader = new BufferedReader(
-                new InputStreamReader(Main.class.getResourceAsStream("/input_6.txt")))) {
+                new InputStreamReader(Objects.requireNonNull(Main.class.getResourceAsStream("/input_7.txt"))))) {
             String line;
             var target = inputStrings;
             while ((line = reader.readLine()) != null) {
@@ -94,8 +95,11 @@ public class Main {
 //        var inventoryManager = new InventoryManager(inputStrings);
 //        System.out.println("number of unspoiled ingredients in stock: " + inventoryManager.countUnspoiledIngredients(inputStrings2));
 //        System.out.println("possible unspoiled ingredients: " + inventoryManager.countTotalUnspoiledIngredients());
-        var calculator = new CephalopodCalculator();
-        System.out.println("Total: " + calculator.calculate(inputStrings));
+//        var calculator = new CephalopodCalculator();
+//        System.out.println("Total: " + calculator.calculate(inputStrings));
+
+        var tachyon = new Tachyon();
+        System.out.println("Total: " + tachyon.countSplits(inputStrings));
     }
 
 }
