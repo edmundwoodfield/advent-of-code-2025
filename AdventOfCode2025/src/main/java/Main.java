@@ -100,6 +100,7 @@ public class Main {
 
         var tachyon = new Tachyon();
         System.out.println("Total: " + tachyon.countSplits(inputStrings));
+        System.out.println("Quantum total: " + tachyon.countQuantumSplits(inputStrings));
     }
 
 }
